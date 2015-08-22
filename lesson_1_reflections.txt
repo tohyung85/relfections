@@ -1,0 +1,28 @@
+Use diff -u game_old.js game_new.js to compare differences in files
+
+Much easier to spot the differences and mistakes. Esp for larger files.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+Find out if any mistakes were made from one version to the next.
+When you need to undo changes it will be great.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+Pros - Versions will be at logical breakpoints
+Cons - User driven; can be saved infrequently
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+Git deals with codes which spans across multiple files. Docs are basically docs right..
+
+How can you use the commands git log and git diff to view the history of files?
+git log will show history of commits with IDs
+git log --stat will show the number of files changed and number of additions and deltions as well
+git diff commitID1 commitID2 will show the changes in the 2 commits
+
+How might using version control make you more confident to make changes that could break something?
+If it breaks the problem just go back to previous version!
+
+Now that you have your workspace set up, what do you want to try using Git for?
+Version control of my app!
+
+git clone to download repository on computer; default latest will be set
+git checkout commitID to download version of repository on comp.
