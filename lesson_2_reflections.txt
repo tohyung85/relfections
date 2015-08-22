@@ -6,3 +6,8 @@ How is the staging area different from the working directory and the repository?
 
 it is an intermediate area before commiting working files to the repository.
 allows you to commit only files where logical breakpoints and changes have been done.
+
+How can you use the staging area to make sure you have one commit per logical change?
+Add files corresponding to one logical change to the staging area before commiting.
+Can continue to work on the working directory thereafter
+just be sure to commit before adding the same file to the staging area.
