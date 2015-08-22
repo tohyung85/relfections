@@ -17,3 +17,8 @@ What are some situations when branches would be helpful in keeping your history 
 
 1) When you need to make experimentations which you are not sure if they will work
 2) When you need to make variations of the same program but will want to retain the previous version. (Eg italian mode; easy mode)
+
+How do the diagrams help you visualize the branch structure?
+Really should create a branch when you are experimenting on prior commits to avoid detached head. 
+1) Checkout prior version. 
+2) Create branch and work from there.
