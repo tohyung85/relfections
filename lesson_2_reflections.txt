@@ -22,3 +22,19 @@ How do the diagrams help you visualize the branch structure?
 Really should create a branch when you are experimenting on prior commits to avoid detached head. 
 1) Checkout prior version. 
 2) Create branch and work from there.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+merge changes together. Point to take note, if u try to merge files with 2 lines inconsistent with each other, it will result in a merge confilct. This is when the changes happen in the same area.
+
+Fixing Merge conflicts:
+1) Merge branches together. Terminal will indicate that there is a merge conflict
+2) Look into the file with the conflict. Look for <<<<HEAD ||| and <<<<master
+3) The code below shows the code in the HEAD commit , original commit and the master commit respectively.
+4) Choose and fix the code to use the right one or a combination of both.
+5) save and git status will show that both are modified
+6) git add file to add to staging area
+7) git commit to commit the file
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+pros - very fast and convenient
+cons - git might highlight the conflicts in the same area, but the difference could be somewhere else. or it might be obvious which is the right one to use.
