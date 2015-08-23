@@ -13,3 +13,7 @@ What is the benefit of having a copy of the last known state of the remote store
 The commit will be known as origin/master. I.e the last known state of the remote stored locally. Any changes made by others subsequently will be from this point. So when git fetch is done, a branch of commits made by others to the git hub repository from that point will be created. the other branch will be the local commits made on the local repository.
 git merge will then try to merge these 2 once conflicting changes are resolved.
 Basically lets you look at and choose which changes should be implemented if there are conflicts.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+sending hardcopies. 
+Difficult to keep track of versions.
