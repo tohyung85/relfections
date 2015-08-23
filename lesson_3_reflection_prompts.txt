@@ -17,3 +17,7 @@ Basically lets you look at and choose which changes should be implemented if the
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 sending hardcopies. 
 Difficult to keep track of versions.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+Experimental changes should be in a separate branch. Allows collaboration and allows others to review it via git hub before uploading.
